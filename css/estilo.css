@@ -271,22 +271,14 @@ article{
 
 
 
-.efe1 div::after{
-
-}
-.efe5 div::after{
-
-}
-
 .efe2 div::after{
-
 	top: 8%;
 	bottom: 8%;
 	left: 3%;
 	right: 3%;
 	opacity: 1;
 }
-.efe3 div::after{
+.efe3 div, .efe4 div,.efe5 div {
 	position: absolute;
 	content: '';
 	top: 10%;
@@ -297,19 +289,11 @@ article{
 	border-top:  solid 1px white;
 	opacity: 1;
 }
-.efe4 div::after{
-	position: absolute;
-	content: '';
+.efe4 div{
 	top: 18%;
 	bottom:18%;
-	left: 3%;
-	right: 3%;
-	border-bottom: solid 1px white;
-	border-top:  solid 1px white; 
-	opacity: 1;
 }
-.efe1 div::before{
-}
+
 .efe5 div::before{
 
 	opacity: 1;
