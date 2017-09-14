@@ -13,8 +13,8 @@ body{
 }
 .su{
 position: absolute;
-	top: 120%;
-	right: 0%;
+	top: 110%;
+	right: -5%;
 	width: 100%;
 	height: 100px;
 	border: none;
@@ -23,8 +23,8 @@ position: absolute;
 
 .su1{
 	position: absolute;
-	top: 10%;
-	right:  -90%;
+	top: 100%;
+	right:  -35%;
 	width: 100%;
 	height: 300px;
 	border: none;
@@ -42,6 +42,7 @@ header nav{
 	margin: 2% auto;
 	background: #383030;
 	opacity: 0.8;
+	text-align: center;
 }
 
 section {
@@ -73,10 +74,12 @@ header nav ul{
 
 header nav ul li{
 	float: left;
+	width: 20%;
+
 }
 
 header nav ul li a{
-	width: 150px;
+	width: 80%;
 	color: white;
 	padding: 10%;
 	display: block;
@@ -85,7 +88,7 @@ header nav ul li a{
 
 
 .titulo1{
-	width: 35%;
+	width: 45%;
 }
 header nav ul li a:hover{
 	background-color: blue;
@@ -101,7 +104,7 @@ header{
 .su{
 	position: absolute;
 	top: 100%;
-	right: -5%;
+	right: -23%;
 	width: 140%;
 	height: 300px;
 	border: none;
@@ -109,8 +112,8 @@ header{
 }
 .su1{
 	position: absolute;
-	top: -2%;
-	right: -90%;
+	top: 100%;
+	right: -30%;
 	width: 100%;
 	height: 100%;
 	border: none;
@@ -191,6 +194,121 @@ header nav ul li a:hover{
 
 
 @media only screen and (min-width: 768px) and (max-width: 992px){
+.efe2 div::after{
+	display: none;
+	opacity: 0;
+}
+.efe3 div, .efe4 div,.efe5 div {
+text-decoration: none;
+opacity: 0;
+}
+.efe4 div{
+text-decoration: none;
+opacity: 0;
+}
+
+.efe5 div::before{
+
+	display: none;
+	opacity: 0;
+}
+
+.efe2 div::before{
+	display: none;
+	opacity: 0;
+}
+.efe1 div h3{
+	display: none;
+	opacity: 0;
+}
+
+.efe2 div h3{
+	display: none;
+	opacity: 0;
+}
+.efe3 div h3{
+display: none;
+opacity: 0;
+}
+.efe4 div h3{
+display: none;
+opacity: 0;
+}
+.efe5 div h3{
+display: none;
+opacity: 0;
+}
+.efe1 div p{
+	display: none;
+	opacity: 0;
+}
+
+.efe2 div p{
+	display: none;
+	opacity: 0;
+}
+
+.efe3 div p{
+	display: none;
+	opacity: 0;
+}
+.efe4 div p{
+	display: none;
+	opacity: 0;
+}
+.efe5 div p{
+display: none;
+opacity: 0;
+
+}
+
+
+
+.efe1 img,.efe2 img,.efe3 img{
+
+	border-radius: 2.5% 5% 2.5% 5%;
+}
+
+
+
+.efe4 img{
+
+
+	border-radius: 2.5% 5% 2.5% 5%;
+}
+
+.efe5 img{
+
+	border-radius: 2.5% 5% 2.5% 5%;
+}
+.efe3 div a, .efe2 div a, .efe1 div a, .efe5 div a{
+	text-decoration: none;
+	color: red;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	padding: 1.5% 2%;
+	display: inline-block;
+	margin: 0%;
+	opacity: 0;
+	z-index: 2;
+	border-radius: 2.5% 5% 2.5% 5%;
+}
+.efe4 div a{
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	padding: 1.5% 2%;
+	display: inline-block;
+	margin-top: 0%;
+	opacity: 0;
+	z-index: 2;
+	border-radius: 2.5% 5% 2.5% 5%;
+}
+
+
+
 section {
 	position: absolute;
 	width: 50%;
@@ -206,13 +324,14 @@ article{
 }
 
 	header nav{
-		width: 60%;
+		width: 40%;
 		height: 100%;
 		left: -100%;
 		margin-top: 10%;
 		position: absolute;
 		z-index: 1;
-		font-size: 40px;
+		font-size: 30px;
+
 	}
 
 	header nav ul li{
@@ -247,8 +366,8 @@ article{
 	}
 .su{
 		position: absolute;
-	top: 20%;
-	left: -30%;
+	top: 60%;
+	left: -40%;
 	width: 140%;
 	height: 100px;
 	border: none;
@@ -257,13 +376,14 @@ article{
 }
 .su1{
 		position: absolute;
-	top: 100%;
-	right: -10%;
+	top: 0%;
+	right: 75%;
 	width: 120%;
 	height: 100%;
 	border: none;
 	margin: 1% -25% -20% -25%;	
 }
+
 
 
 }
@@ -272,95 +392,84 @@ article{
 
 
 .efe2 div::after{
-	top: 8%;
-	bottom: 8%;
-	left: 3%;
-	right: 3%;
-	opacity: 1;
+	display: none;
 }
 .efe3 div, .efe4 div,.efe5 div {
-	position: absolute;
-	content: '';
-	top: 10%;
-	bottom:10%;
-	left: 3%;
-	right: 3%;
-	border-bottom: solid 1px white;
-	border-top:  solid 1px white;
-	opacity: 1;
+text-decoration: none;
+opacity: 0;
 }
 .efe4 div{
-	top: 18%;
-	bottom:18%;
+text-decoration: none;
+opacity: 0;
 }
 
 .efe5 div::before{
 
-	opacity: 1;
+	display: none;
 }
 
 .efe2 div::before{
-	left: 3%;
-	right: 3%;
-	top: 8%;
-	bottom: 8%;
-	opacity: 1;
+	display: none;
 }
 .efe1 div h3{
-	margin-top: 12%;
+	display: none;
 }
 
 .efe2 div h3{
-	margin-top: 12%;
+	display: none;
 }
 .efe3 div h3{
-	margin-top: 12%;
+display: none;
 }
 .efe4 div h3{
-	margin-top: 12%;
+display: none;
 }
 .efe5 div h3{
-	margin-top: 25%;
+display: none;
 }
 .efe1 div p{
+	display: none;
 }
 
 .efe2 div p{
+	display: none;
 }
 
 .efe3 div p{
+	display: none;
 }
 .efe4 div p{
+	display: none;
 }
 .efe5 div p{
-	margin-top: 15%;
-	position: absolute;
+display: none;
 
 }
 
 
 
 .efe1 img,.efe2 img,.efe3 img{
-	opacity: 0.5;
+
 	border-radius: 2.5% 5% 2.5% 5%;
 }
 
 
 
 .efe4 img{
-	opacity: 0.5;
+
 
 	border-radius: 2.5% 5% 2.5% 5%;
 }
 
 .efe5 img{
-	opacity: 0.5;
-	margin-top: 35%;
+
 	border-radius: 2.5% 5% 2.5% 5%;
 }
 .efe3 div a, .efe2 div a, .efe1 div a, .efe5 div a{
 	text-decoration: none;
 	color: red;
+	width: 100%;
+	height: 100%;
 	background-color: rgba(0,0,0,0.8);
 	padding: 1.5% 2%;
 	display: inline-block;
@@ -371,7 +480,8 @@ article{
 }
 .efe4 div a{
 	text-decoration: none;
-	color: red;
+	width: 100%;
+	height: 100%;
 	background-color: rgba(0,0,0,0.8);
 	padding: 1.5% 2%;
 	display: inline-block;
@@ -442,8 +552,8 @@ article{
 
 .su{
 		position: absolute;
-	top: 50%;
-	left: -60%;
+	top: 5%;
+	left: -65%;
 	width: 140%;
 	height: 100%;
 	border: none;
@@ -453,8 +563,8 @@ article{
 }
 .su1{
 	position: absolute;
-	top: 100%;
-	left: 35%;
+	top: 220%;
+	left: -15%;
 	width: 100%;
 	height: 100%;
 	border: none;
@@ -727,6 +837,7 @@ article{
 	transition-delay:0,1; 
 	transition: 0.5s; 
 	padding: 1%;
+	font-size: 30%;
 	width: 70%;
 	left: 15%;
 
@@ -739,6 +850,7 @@ article{
 	transform: scaleY(0);
 	transition-delay:0,1; 
 	transition: 0.5s; 
+	font-size: 
 	padding: 1%;
 	width: 70%;
 	left: 15%;
